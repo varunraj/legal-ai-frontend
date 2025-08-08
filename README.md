@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Precedent Ai - Frontend
+
+This is the frontend application for **Precedent Ai**, your Ai co-counsel for legal research. Built with [Next.js](https://nextjs.org) and modern web technologies to deliver fast, intuitive legal research experiences.
+
+## About Precedent Ai
+
+Precedent Ai revolutionizes legal research by providing:
+
+- 🔍 **Natural language search** - Ask questions in plain English
+- ⚖️ **Real case law** - Grounded in actual court precedents
+- 📄 **Legal reasoning** - Understand the logic, not just outcomes
+- ⏱️ **Time-saving** - Find answers in minutes, not hours
+- 💸 **Affordable** - Free alternative to expensive legal databases
 
 ## Getting Started
 
@@ -16,9 +28,25 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **UI Components**: Custom component library
+- **Fonts**: Geist Sans & Geist Mono
+
+## Project Structure
+
+```
+src/
+├── app/                 # Next.js App Router pages
+├── components/          # Reusable UI components
+│   ├── ui/             # Base UI components (Button, etc.)
+│   └── layout/         # Layout components (Header, etc.)
+└── lib/                # Utility functions
+```
 
 ## Learn More
 
